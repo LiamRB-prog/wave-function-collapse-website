@@ -1,9 +1,12 @@
 import Tile from "./tile"
+import "./grid.css"
 
 function Grid() {
     return (
         <>
-            <Tile />
+            <div className="board">
+                <Tile />
+            </div>
         </>
     )
 }
